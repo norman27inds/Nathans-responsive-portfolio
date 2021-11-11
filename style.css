@@ -41,4 +41,28 @@ body {
  
 }
 
+.container4 {
+    padding: 0px;
+    margin: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  }
+  
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+    .container {
+      width: 80%; }
+    .column,
+    .columns {
+      margin-left: 4%; }
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 0; }
+
 .footer {}
